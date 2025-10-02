@@ -10,14 +10,15 @@ export function About() {
           from Sol Plaatje University, where I graduated with multiple distinctions in key modules such as Applications Development, Business Practice, 
           Information Systems, Multimedia Applications, and Project Management.
         </p>
-        
+        </div> 
+      
       <div className="space-y-4 text-pretty leading-relaxed text-muted-foreground">
         <p>
           ☕ I am an Oracle Certified Associate (Java SE 8 Programmer, IZO-808) and hold certifications in IBM AI Fundamentals, Professional Skill, and 
           Certiport IT Specialist, which reflect my dedication to continuous learning and staying aligned with industry standards.
         </p>
         
-      </div>
+      
       <div className="space-y-4 text-pretty leading-relaxed text-muted-foreground">
         <p>
           I'm a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful design with robust engineering. 
