@@ -6,8 +6,8 @@ export function About() {
       </div>
       <div className="space-y-4 text-pretty leading-relaxed text-muted-foreground">
         <p>
-          💻 I am a detail-oriented Software Developer candidate with a Diploma in Information & Communication Technology – Application Development (2024)
-          from Sol Plaatje University, where I graduated with multiple distinctions in key modules such as Applications Development, Business Practice, 
+          💻 I am a detail-oriented Software Developer candidate with a Diploma in Information & Communication Technology – Application Development (2024) from Sol Plaatje University, 
+          where I graduated with multiple distinctions in key modules such as Applications Development, Business Practice, 
           Information Systems, Multimedia Applications, and Project Management.
         </p>
         </div> 
