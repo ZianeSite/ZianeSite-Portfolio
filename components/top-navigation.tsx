@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 
 const sections = ["about", "experience", "technologies", "projects", "contact"]
 
-export function Navigation() {
+export function TopNavigation() {
   const [activeSection, setActiveSection] = useState("about")
 
   useEffect(() => {
@@ -35,31 +35,22 @@ export function Navigation() {
   }
 
   return (
-    <nav className="fixed left-0 top-0 z-50 hidden h-screen w-24 flex-col items-center justify-center lg:flex">
-      <div className="flex flex-col gap-6">
-        {sections.map((section) => (
-          <button
-            key={section}
-            onClick={() => scrollToSection(section)}
-            className="group relative flex items-center"
-            aria-label={`Navigate to ${section}`}
-          >
-            <span
-              className={`h-px transition-all ${
-                activeSection === section
-                  ? "w-16 bg-primary"
-                  : "w-8 bg-muted group-hover:w-16 group-hover:bg-foreground"
-              }`}
-            />
-            <span
-              className={`absolute left-20 text-xs font-bold uppercase tracking-widest transition-opacity ${
-                activeSection === section ? "text-primary opacity-100" : "text-muted opacity-0 group-hover:opacity-100"
+    <nav className="fixed left-0 right-0 top-0 z-50 border-b border-border/40 bg-background/80 backdrop-blur-sm lg:hidden">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+        <span className="text-lg font-bold">Portfolio</span>
+        <div className="flex gap-6">
+          {sections.map((section) => (
+            <button
+              key={section}
+              onClick={() => scrollToSection(section)}
+              className={`text-sm font-medium capitalize transition-colors ${
+                activeSection === section ? "text-primary" : "text-muted-foreground hover:text-foreground"
               }`}
             >
               {section}
-            </span>
-          </button>
-        ))}
+            </button>
+          ))}
+        </div>
       </div>
     </nav>
   )
