@@ -1,4 +1,3 @@
-import { Suspense } from "react"
 import { Hero } from "@/components/hero"
 import { About } from "@/components/about"
 import { Experience } from "@/components/experience"
@@ -9,9 +8,7 @@ import { Navigation } from "@/components/navigation"
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <Suspense fallback={null}>
-        <Navigation />
-      </Suspense>
+      <Navigation />
       <main className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="lg:flex lg:gap-12">
           <Hero />

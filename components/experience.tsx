@@ -76,10 +76,8 @@ export function Experience() {
             rel="noopener noreferrer"
             className="group inline-flex items-center font-medium leading-tight text-foreground hover:text-primary"
           >
-            <span className="border-b border-transparent pb-px transition group-hover:border-primary">
-              View Full Resume
-            </span>
-            <ArrowUpRight className="ml-1 h-4 w-4 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
+            
+            
           </a>
         </div>
       </div>

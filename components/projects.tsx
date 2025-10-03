@@ -6,35 +6,28 @@ const projects = [
   {
     title: "Portfolio Website",
     description:
-      "A modern, responsive portfolio website built with Next.js and Tailwind CSS. Features smooth scrolling, dynamic navigation, and optimized performance.",
+      "A personal portfolio website built with Next.js and Tailwind CSS. Features smooth scrolling, dynamic navigation, and optimized performance.",
     image: "/modern-portfolio-website.png",
     url: "#",
     technologies: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
   },
   {
-    title: "E-Commerce Platform",
+    title: "Qualification Finder",
     description:
-      "Full-stack e-commerce solution with product management, shopping cart, and secure checkout. Integrated with Stripe for payment processing.",
+      "A qualification finder for South African matriculants to explore universities, colleges, courses, and application requirements.",
     image: "/ecommerce-dashboard.png",
     url: "#",
     technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
   },
   {
-    title: "Task Management App",
+    title: "Gamified Study Group Platform",
     description:
-      "Collaborative task management application with real-time updates, team workspaces, and project tracking capabilities.",
+      "A collaborative web application designed to make studying more engaging, social, and motivating. Integrating gamification elements such as XP points, leaderboards, and achievement badges to encourage consistent learning habits. Built-in tools like a Pomodoro timer and flashcards help learners stay focused and reinforce knowledge retention, while group chat functionality fosters peer-to-peer accountability and collaboration.",
     image: "/task-management-app.png",
     url: "#",
-    technologies: ["Vue.js", "Firebase", "Vuex", "Tailwind CSS"],
+    technologies: ["Node.js", "PostgreSql", "React", "Tailwind CSS"],
   },
-  {
-    title: "Weather Dashboard",
-    description:
-      "Interactive weather dashboard displaying current conditions and forecasts. Features location search and beautiful data visualizations.",
-    image: "/weather-dashboard-interface.png",
-    url: "#",
-    technologies: ["React", "Chart.js", "OpenWeather API", "CSS"],
-  },
+  
 ]
 
 export function Projects() {
