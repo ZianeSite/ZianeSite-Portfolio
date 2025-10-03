@@ -1,4 +1,4 @@
-import { Code2, Database, FileCode, Braces } from "lucide-react"
+import { Code2, Database, FileCode, Braces, Smartphone, FileType, Code } from "lucide-react"
 
 const technologies = [
   { name: "Java", icon: Code2, color: "text-orange-500" },
@@ -6,6 +6,9 @@ const technologies = [
   { name: "Python", icon: FileCode, color: "text-blue-500" },
   { name: "HTML & CSS", icon: FileCode, color: "text-orange-600" },
   { name: "SQL", icon: Database, color: "text-cyan-500" },
+  { name: "Android Studio", icon: Smartphone, color: "text-green-500" },
+  { name: "TypeScript", icon: FileType, color: "text-blue-600" },
+  { name: "VS Code", icon: Code, color: "text-blue-400" },
 ]
 
 export function Technologies() {

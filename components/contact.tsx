@@ -12,40 +12,11 @@ export function Contact() {
           want to say hi, feel free to reach out!
         </p>
         <Button asChild size="lg" className="font-medium">
-          <a href="mailto:hello@example.com">Get In Touch</a>
+          <a href="mailto:lebohangziane@gmail.com">Get In Touch</a>
         </Button>
       </div>
       <footer className="mt-24 text-sm text-muted-foreground">
-        <p>
-          Built with{" "}
-          <a
-            href="https://nextjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium text-foreground hover:text-primary"
-          >
-            Next.js
-          </a>{" "}
-          and{" "}
-          <a
-            href="https://tailwindcss.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium text-foreground hover:text-primary"
-          >
-            Tailwind CSS
-          </a>
-          . Deployed on{" "}
-          <a
-            href="https://vercel.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium text-foreground hover:text-primary"
-          >
-            Vercel
-          </a>
-          .
-        </p>
+        
       </footer>
     </section>
   )

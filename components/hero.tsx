@@ -1,4 +1,6 @@
-import { Github, Linkedin, Mail, Twitter } from "lucide-react"
+"use client"
+
+import { Github, Linkedin, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function Hero() {
@@ -10,8 +12,16 @@ export function Hero() {
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-primary sm:text-xl">Software Developer</h2>
         <p className="mt-4 max-w-xs text-pretty leading-relaxed text-muted-foreground">
-          ICT Graduate | Oracle Certified Associate (Java SE 8 Programmer, IZO-808). | Certifications in IBM AI and Certiport IT Specialist.
+          ICT Graduate | Oracle Certified Associate (Java SE 8 Programmer, IZO-808). | Certifications in IBM AI and
+          Certiport IT Specialist.
         </p>
+
+        <div className="mt-8 flex justify-center">
+          <div className="relative h-32 w-32">
+            {/* Laptop screen */}
+            
+          </div>
+        </div>
       </div>
 
       <div className="mt-16 flex gap-5 lg:mt-0">
@@ -21,11 +31,16 @@ export function Hero() {
           </a>
         </Button>
         <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground" asChild>
-          <a href="https://www.linkedin.com/in/lebohang-ziane-3805332b1/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a
+            href="https://www.linkedin.com/in/lebohang-ziane-3805332b1/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
             <Linkedin className="h-5 w-5" />
           </a>
         </Button>
-        
+
         <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground" asChild>
           <a href="mailto:lebohangziane@gmail.com" aria-label="Email">
             <Mail className="h-5 w-5" />
